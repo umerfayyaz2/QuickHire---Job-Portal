@@ -20,7 +20,7 @@ const Header = () => {
     {/* If the user is sign-in they will see the sign-in button */}
       {/* <SignedIn>
         <UserButton />
-      </SignedIn> */} */
+      </SignedIn> */}
 
     </nav>
    </>
