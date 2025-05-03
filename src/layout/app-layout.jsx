@@ -1,10 +1,16 @@
+import { Header } from '@radix-ui/react-accordion'
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 
 const AppLayout = () => {
   return (
-    <div>AppLayout
-        <Outlet/></div>
+    <div>
+    <div className='grid-background'></div>
+    <main className='min-h-screen container'>
+    <Header/>
+    <Outlet/>
+    </main>
+    </div>
   )
 }
 
